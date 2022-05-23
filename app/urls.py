@@ -11,5 +11,5 @@ router=routers.DefaultRouter()
 
 urlpatterns = [
     path('api/', include(router.urls)),
-    path('',home),
+    path('',home, name='home'),
 ]
